@@ -1,7 +1,44 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
+
+nav {
+   font-family: sans-serif;
+    font-weight: bold; 
+}
+
+.navbar-default  {
+    background-color: #383737;
+}
+
+.navbar-brand {
+    background-color: #383737;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: black;
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  background-color: #4CAF50;
+}
+
+.navbar-default .navbar-brand:hover {
+  background-color: black;
+  color: white;
+}
+
 
 .container {
     width: 100%;
+    
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;

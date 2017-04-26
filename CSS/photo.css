@@ -1,57 +1,58 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
-.navBar {
-    position: fixed;
-    width: 100%;
-    min-width: 400px;
-    top: 0px;
-    left: 0px;
+nav {
+   font-family: sans-serif;
+    font-weight: bold; 
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+.navbar-default  {
     background-color: #383737;
-    overflow: hidden;
 }
 
-li {
-    float: left;
+.navbar-brand {
+    background-color: #383737;
 }
 
-li a {
-    text-decoration: none;    
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    display: block;
+.navbar-default .navbar-nav > li > a {
+  color: white;
 }
 
-li a:hover {
-    background-color: black;
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: black;
+  color: white;
 }
 
-.active {
-    background-color: #4CAF50;
+.navbar-default .navbar-brand {
+  color: white;
+  background-color: #4CAF50;
 }
 
-.about {
-    float: right;
+.navbar-default .navbar-brand:hover {
+  background-color: black;
+  color: white;
 }
 
+
+.container {
+    width: 100%;
+    
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
 
 
 h1 {
     margin-left: 5%;
-    margin-top: 10%;
-    margin-bottom: -80px;
+    margin-top: 5%;
+    margin-bottom: -50px;
 }
 
 #topics {
-    padding-top: 90px;
+    padding-top: 60px;
 }
 
 .topicPhoto {
