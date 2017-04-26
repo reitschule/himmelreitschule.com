@@ -1,11 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navBar {
+    position: fixed;
+    width: 100%;
+    min-width: 400px;
+    top: 0px;
+    left: 0px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #383737;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-decoration: none;    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    display: block;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.about {
+    float: right;
+}
+
+
+
 h1 {
     margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: -80px;
+}
+
+#topics {
+    padding-top: 90px;
 }
 
 .topicPhoto {
     float: left;
     width: 40%;
-    margin: auto 5%;
+    margin: 0px 5%;
 }
 
 img {
@@ -14,6 +66,10 @@ img {
 
 h3 {
     text-align: center;
+}
+
+.clear {
+    clear: both;
 }
 
 #world {
