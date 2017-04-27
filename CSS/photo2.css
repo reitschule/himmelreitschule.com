@@ -67,3 +67,8 @@ a {
     font-size: ;
     margin-right: 10px;
 }
+
+.thumbnail img {
+    height:245px;
+    width:100%;
+}
