@@ -52,9 +52,8 @@ nav {
 
 
 h1 {
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: -50px;
+   
+
 }
 
 
@@ -95,10 +94,10 @@ a:hover {
 }
 
 
-.thumbnail img {
-    height: 300px;
-    width: 100%;
-}
 
+.fa-picture-o {
+    font-size: ;
+    margin-right: 10px;
+}
 
 
