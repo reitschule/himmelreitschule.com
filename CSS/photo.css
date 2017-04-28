@@ -41,6 +41,11 @@ nav {
     
 }
 
+#containerPhoto {
+    width: 90%;
+    padding-top: 40px;
+}
+
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
 }
@@ -52,19 +57,7 @@ h1 {
     margin-bottom: -50px;
 }
 
-#topics {
-    padding-top: 60px;
-}
 
-.topicPhoto {
-    float: left;
-    width: 40%;
-    margin: 0px 5%;
-}
-
-img {
-    width: 100%;
-}
 
 h3 {
     text-align: center;
@@ -77,6 +70,8 @@ h3 {
 #world {
     width: 90%;
     margin: 0 5% 5% 5%;
+    height: 100%;
+    margin: 30px auto;
 }
 
 footer {
@@ -93,7 +88,16 @@ a {
     color: black;
     font-family: sans-serif;
     font-weight: bold;
-    
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+.thumbnail img {
+    height: 300px;
+    width: 100%;
 }
 
 
