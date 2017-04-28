@@ -1,9 +1,15 @@
+html {
+    height: 100%;
+}
+
 body {
     font-size: 16px;
-    background-image: url(http://www.chenpengstudio.com/assets/img/project/yupo/Marching-in-Playground.jpg);
+    background-image: url(../image/fishery.jpg); 
     background-size: cover;
     
 }
+
+
 
 nav {
    font-family: sans-serif;
@@ -29,7 +35,7 @@ nav {
 
 .navbar-default .navbar-brand {
   color: white;
-  background-color: #4CAF50;
+  background-color: #b5343d;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -45,4 +51,38 @@ nav {
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: white;
+}
 
+
+
+h1 {
+    color: #b5343d;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h3 {
+    color: #b5343d;
+}
+
+#content {
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.4),
+                 0px 1px 1px rgba(0,0,0,0.1),
+                 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+hr {
+    width: 400px;
+    background-color: #b5343d;
+    border-top: 1px solid #b5343d;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+.btn-success {
+    background-color: #b5343d;
+    color: white;
+    border-color: #b5343d;
+}
