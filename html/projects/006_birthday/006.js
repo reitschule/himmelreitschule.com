@@ -68,8 +68,11 @@ $(document).ready(function(){
                     $("#happyBday").text("I guess you are 雪菁.");
                 } else if (bday.getMonth() + 1 == "8" &&　bday.getDate() == "3") {
                     $("#happyBday").text("You are Andy's girlfriend!");
+                } else if (bday.getMonth() + 1 == "11" &&　bday.getDate() == "16") {
+                    $("#happyBday").text("It'a been a long time.");
+                    $("#bdayBanner").text("Hey, Sunny!");
                 } else {
-                    $("#happyBday").text("");
+                    $("#happyBday").text("Today is not your birthday.");
                 };
             };
         };
