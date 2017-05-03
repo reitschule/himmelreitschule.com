@@ -1,0 +1,72 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    
+}
+
+
+
+nav {
+   font-family: sans-serif;
+    font-weight: bold; 
+}
+
+.navbar-default  {
+    background-color: #383737;
+}
+
+.navbar-brand {
+    background-color: #383737;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: black;
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  background-color: #b5343d;
+}
+
+.navbar-default .navbar-brand:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.container {
+    width: 100%;    
+}
+
+.context {
+    margin-top: 60px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+
+
+h1 {
+    color: #b5343d;
+    font-size: 3em;
+    font-weight: 700;
+}
+
+h3 {
+    color: #b5343d;
+}
+

@@ -1,0 +1,74 @@
+html {
+
+
+}
+
+body {
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+
+}
+
+nav {
+   font-family: sans-serif;
+    font-weight: bold; 
+}
+
+.navbar-default  {
+    background-color: #383737;
+}
+
+.navbar-brand {
+    background-color: #383737;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: black;
+  color: white;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+  background-color: #b5343d;
+}
+
+.navbar-default .navbar-brand:hover {
+  background-color: black;
+  color: white;
+}
+
+
+.container {
+    width: 100%;    
+}
+
+
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+#boxes {
+    width: 85%;
+    margin: 100px auto; 
+    
+}
+
+
+
+.box {
+    width: 12.5%;
+    height: 100px;
+    position: relative;
+    float:left;
+    margin: auto;
+    border: 0.1px ridge #e0e0e0;
+}
