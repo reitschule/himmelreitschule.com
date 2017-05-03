@@ -1,0 +1,31 @@
+.container {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    width: 80%;
+    padding-top: 100px;
+    
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #42c342;
+    color: white;
+    position: fixed;
+}
+
+a:visited {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #42c342;
+    color: white;
+}
+
+#link2 {
+    right: 1%;
+}
+
