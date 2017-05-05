@@ -1,0 +1,85 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 16px;
+    background-image: url(../image/fishery.jpg);
+    background-size: cover;
+}
+
+nav {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+
+
+.navbar-inverse .navbar-brand {
+    color: white;  
+}
+
+.navbar-inverse .navbar-brand:hover {
+    background-color: black;
+    
+} 
+
+.navbar-inverse .navbar-nav > li > a  {
+    color: white;
+}
+
+.navbar-inverse {
+    background-color: #383737;
+    border: none;
+}
+
+.navbar-inverse .navbar-nav > li:hover {
+    background-color: black;
+}
+
+#active {
+    background-color: #b5343d;
+}
+
+#fb {
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+
+
+
+#content {
+    padding-top: 30%;
+    text-align: center;
+    color: #b5343d;
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.4),
+                 0px 1px 1px rgba(0,0,0,0.1),
+                 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+hr {
+    width: 400px;
+    background-color: #b5343d;
+    border-top: 1px solid #b5343d;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.btn-success {
+    background-color: #b5343d;
+    border-color: #b5343d;
+}
+
+.btn-success:hover,
+.btn-success:active:focus,
+.btn-success:active,
+.btn-success:visited {
+    background-color: #a32f37;
+    border-color: #a32f37;
+}
+
