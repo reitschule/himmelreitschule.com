@@ -4,69 +4,56 @@ html {
 
 body {
     font-size: 16px;
-    
+    background-image: url(../image/fishery.jpg);
+    background-size: cover;
 }
-
-
 
 nav {
-   font-family: sans-serif;
-    font-weight: bold; 
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
-.navbar-default  {
+
+
+.navbar-inverse .navbar-brand {
+    color: white;  
+}
+
+.navbar-inverse .navbar-brand:hover {
+    background-color: black;
+    
+} 
+
+.navbar-inverse .navbar-nav > li > a  {
+    color: white;
+}
+
+.navbar-inverse {
     background-color: #383737;
+    border: none;
 }
 
-.navbar-brand {
-    background-color: #383737;
+.navbar-inverse .navbar-nav > li:hover {
+    background-color: black;
 }
 
-.navbar-default .navbar-nav > li > a {
-  color: white;
+#active {
+    background-color: #b5343d;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-  background-color: black;
-  color: white;
-}
-
-.navbar-default .navbar-brand {
-  color: white;
-  background-color: #b5343d;
-}
-
-.navbar-default .navbar-brand:hover {
-  background-color: black;
-  color: white;
+#fb {
+    padding-right: 20px;
+    font-size: 18px;
 }
 
 
-.container {
-    width: 100%;    
+#clock {
+    color: rgb(209, 64, 74);
+    font-weight: 600;
+    margin-top: 15px;
 }
 
-.context {
-    margin-top: 60px;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: white;
-}
-
-
-
-h1 {
-    color: #b5343d;
-    font-size: 3em;
-    font-weight: 700;
-}
-
-h3 {
-    color: #b5343d;
+.projectLists {
+    padding-top: 15vh;
 }
 
