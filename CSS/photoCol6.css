@@ -4,8 +4,6 @@ html {
 
 body {
     font-size: 16px;
-    background-image: url(../image/fishery.jpg);
-    background-size: cover;
 }
 
 nav {
@@ -63,10 +61,6 @@ h1 {
     font-weight: 700;
 }
 
-#clock {
-    color: white;
-    margin-top: 15%;
-}
 
 hr {
     width: 400px;
@@ -88,3 +82,11 @@ hr {
     border-color: #a32f37;
 }
 
+.container {
+    padding-top: 10%;
+}
+
+a, a:hover {
+    text-decoration: none;
+    text-align: center;
+}
