@@ -44,6 +44,10 @@ nav {
     font-size: 18px;
 }
 
+#photoIcon {
+    padding-right: 10px;
+
+}
 
 
 
@@ -83,8 +87,10 @@ hr {
 }
 
 .container {
-    padding-top: 10%;
+    padding-top: 15vh;
+
 }
+
 
 a, a:hover {
     text-decoration: none;
